@@ -32,14 +32,7 @@ Google Gemini API
 
 python-dotenv
 
-📂 Project Structure
 
-Qna_chatBot
-│
-├── app.py              # Main Streamlit chatbot application
-├── .env                # Environment variables (API keys)
-├── requirements.txt    # Project dependencies
-├── README.md           # Project documentation
 
 ⚙️ Setup Instructions
 
