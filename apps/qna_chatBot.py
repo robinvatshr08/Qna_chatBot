@@ -22,6 +22,6 @@ for message in st.session_state.messages:
 if query :
     st.session_state.messages.append({"role":"user", "content":query})
     st.chat_message('User').markdown(query)
-    res=llm.invoke(query)
+    res=llm.invoke(st.session_state.messages)
     st.session_state.messages.append({"role":"ai", "content":res.content})
     st.chat_message("AI").markdown(res.content)
